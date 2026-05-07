@@ -184,3 +184,17 @@ nav ul li a:before {
 nav ul li a:hover::before {
     width: 100%;
 }
+
+.social ul li a {
+    display: inline-block;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social ul li a:hover {
+    transform: scale(1.2);
+    padding: 10px 20px;
+}

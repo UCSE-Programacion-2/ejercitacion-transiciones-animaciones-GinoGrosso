@@ -164,6 +164,7 @@ nav ul li a:hover::before {
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66, 139, 202, .2);
     /* animation: ; */
+    animation: girar 1s linear infinite;
 }
 
 
@@ -197,4 +198,13 @@ nav ul li a:hover::before {
 .social ul li a:hover {
     transform: scale(1.2);
     padding: 10px 20px;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

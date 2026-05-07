@@ -197,7 +197,7 @@ nav ul li a:hover::before {
 
 .social ul li a:hover {
     transform: scale(1.2);
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 @keyframes girar {
